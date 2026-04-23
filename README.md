@@ -209,24 +209,11 @@ This highlights a focus on globally relevant and narrative-driven content.
 ---
 ## Dashboard Preview
 
-<div style="display: flex; gap: 20px;">
-
-  <div>
-    <p><b>Content Growth</b></p>
-    <img src="images/growth.png" width="300"/>
-  </div>
-
-  <div>
-    <p><b>Top Genres</b></p>
-    <img src="images/genre.png" width="300"/>
-  </div>
-
-  <div>
-    <p><b>Top Countries</b></p>
-    <img src="images/countries.png" width="300"/>
-  </div>
-
-</div>
+<p align="center">
+  <img src="images/growth.png" width="30%" />
+  <img src="images/genre.png" width="30%" />
+  <img src="images/countries.png" width="30%" />
+</p>
 
 ---
 
