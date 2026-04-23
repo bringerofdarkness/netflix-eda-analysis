@@ -1,0 +1,139 @@
+# 🎬 Netflix Content Analysis (EDA Project)
+
+## 📌 Overview
+This project performs an in-depth **Exploratory Data Analysis (EDA)** on Netflix’s content dataset to uncover patterns in content distribution, growth trends, genre popularity, and overall platform strategy.
+
+The goal is to transform raw data into **actionable business insights**, similar to real-world data analyst workflows.
+
+---
+
+##  Objectives
+- Analyze distribution of Movies vs TV Shows  
+- Understand Netflix content growth over time  
+- Identify top countries contributing content  
+- Explore genre distribution and popularity  
+- Derive insights into Netflix’s content strategy  
+
+---
+
+## 📂 Dataset
+- Source: Kaggle (Netflix Titles Dataset)
+- Records: 8807
+- Features:
+  - Title, Type (Movie/TV Show)
+  - Director, Cast, Country
+  - Release Year, Date Added
+  - Rating, Duration
+  - Genre (Listed In)
+  - Description
+
+---
+
+##  Tech Stack
+- Python 🐍  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
+
+---
+
+##  Data Cleaning
+Key preprocessing steps:
+
+- Converted `date_added` → datetime  
+- Extracted:
+  - `year_added`
+  - `month_added`
+- Handled missing values  
+- Identified data inconsistencies (e.g., duration values inside rating column)
+
+### ⚠️ Data Quality Insight
+~98 records had missing or invalid `date_added`, mostly in TV Shows → indicating incomplete metadata.
+
+---
+
+## 📊Exploratory Data Analysis
+
+### Content Type Distribution
+- Movies ≈ 70% of total content  
+
+  Insight:  
+Netflix is **movie-heavy**, using films to maintain a large content catalog.
+
+---
+
+### 📈 Content Growth Over Time
+- Rapid growth after 2015  
+- Peak around 2019  
+
+ Insight:  
+Netflix experienced **aggressive expansion** during this period.
+
+---
+
+### 🎭 Content Ratings
+- Most common: TV-MA, TV-14  
+
+ Insight:  
+Netflix primarily targets a **mature audience segment**.
+
+---
+
+###  Country Distribution
+Top countries:
+- United States 🇺🇸  
+- India 🇮🇳  
+- United Kingdom 🇬🇧  
+
+ Insight:  
+Netflix follows a **global content strategy**, not limited to one region.
+
+---
+
+###  Genre Analysis
+Top genres:
+- International Movies  
+- Dramas  
+- Comedies  
+
+ Insight:  
+Netflix focuses on **story-driven and globally diverse content**.
+
+---
+
+###  Genre vs Content Type
+- Movies dominate most genres  
+- TV Shows concentrated in:
+  - TV Dramas  
+  - International TV Shows  
+
+ Insight:  
+Netflix uses:
+- Movies → broad content coverage  
+- TV Shows → long-term engagement (binge watching)
+
+---
+
+##  Key Insights
+
+1. Netflix is primarily movie-focused, with movies accounting for approximately 70% of the content.
+2. Significant growth occurred **after 2015**
+3. Strong emphasis on **international content**
+4. Drama is the most dominant genre
+5. TV shows are increasing for **user retention**
+
+---
+
+##  Business Interpretation
+
+Netflix follows a **hybrid content strategy**:
+
+-  Movies → scale & variety  
+-  TV Shows → engagement & retention  
+-  International content → global expansion  
+
+---
+
+## 📁 Project Structure
