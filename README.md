@@ -207,6 +207,18 @@ This highlights a focus on globally relevant and narrative-driven content.
   * Movies vs TV shows
 
 ---
+## Dashboard Preview
+
+### Content Growth
+![Content Growth](images/growth.png)
+
+### Top Genres
+![Top Genres](images/genre.png)
+
+### Top Countries
+![Top Countries](images/countries.png)
+
+---
 
 ## Key Takeaways
 
